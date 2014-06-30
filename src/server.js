@@ -5,10 +5,7 @@ var config  = require('../config');
 
  var server = new hapi.Server('0.0.0.0', +config.get('PORT'), {
   cors: {
-    origin: [
-      'http://' + config.get('site:host'),
-      'https://' + config.get('site:host')
-    ]
+    origin: ['http*://' + config.get('site:host')]
   }
 });
 
