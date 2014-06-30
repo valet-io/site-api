@@ -1,0 +1,26 @@
+{
+  "name": "site-api",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Tiny API for powering server side stuff on our website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valet-io/site-api.git"
+  },
+  "author": "Ben Drucker <bvdrucker@gmail.com> (http://www.bendrucker.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valet-io/site-api/issues"
+  },
+  "homepage": "https://github.com/valet-io/site-api",
+  "dependencies": {
+    "bluebird": "~2.1.3",
+    "hapi": "~6.0.2",
+    "nconf": "~0.6.9"
+  }
+}
